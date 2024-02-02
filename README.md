@@ -10,13 +10,6 @@ Here are some related projects
 - [Simple Navigation A to B](https://github.com/sajinsathananthan2001/Gazebo-Projects/blob/master/src/draw_sqr_class.cpp)
 
 
-
-## Running Tests
-
-To run tests, run the following command
-
-```bash
-  npm run test
-```
+``
 
 
