@@ -78,3 +78,5 @@ OpenSLAM is not a ROS package, but it's a collection of SLAM algorithms and impl
 
 #### ROS2 Navigation Stack:
 ROS 2, the next version of ROS, has its own navigation stack that builds on the lessons learned from the original ROS Navigation Stack.
+
+#### SBPL:
