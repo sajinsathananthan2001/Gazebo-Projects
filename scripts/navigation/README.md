@@ -46,6 +46,10 @@ Now use 2D Nav Goal to move the Turtlebot3 model to the desire location.
 
 ## Tips:
 
+<p style="color:teal;"> Note: In the field of robotics and autonomous navigation, several packages and frameworks exist beyond the TurtleBot3-specific packages mentioned earlier. These packages cater to various robot platforms and applications. Here are some widely used packages for autonomous navigation in ROS:.</p>
+
+
+
 #### ROS Navigation Stack:
 The standard ROS Navigation Stack provides a set of packages for navigation, including AMCL for localization and move_base for path planning and control.
 
@@ -78,3 +82,17 @@ OpenSLAM is not a ROS package, but it's a collection of SLAM algorithms and impl
 
 #### ROS2 Navigation Stack:
 ROS 2, the next version of ROS, has its own navigation stack that builds on the lessons learned from the original ROS Navigation Stack.
+
+#### SBPL:
+
+# Change Text Color Example
+
+This is an example README file with text in different colors.
+
+
+<!-- 
+<p style="color:teal;">This text is teal.</p>
+
+<p style="color:pink;">This text is pink.</p>
+
+<p style="color:gray;">This text is gray.</p> -->
