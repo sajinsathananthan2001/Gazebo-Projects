@@ -9,7 +9,7 @@ $ export TURTLEBOT3_MODEL=burger
 $ roslaunch turtlebot3_gazebo turtlebot3_empty_world.launch
 ```
 ### Step:2
-After making the file executable and building the "catkin_make" in your workspace run the cpp file using the command
+After cloning the repo making the file executable and building the "catkin_make" in your workspace run the cpp file using the command
 ```
 $ rosrun gazebo_project draw_square_class
 ```

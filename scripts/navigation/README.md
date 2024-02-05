@@ -84,15 +84,3 @@ OpenSLAM is not a ROS package, but it's a collection of SLAM algorithms and impl
 ROS 2, the next version of ROS, has its own navigation stack that builds on the lessons learned from the original ROS Navigation Stack.
 
 #### SBPL:
-
-# Change Text Color Example
-
-This is an example README file with text in different colors.
-
-
-<!-- 
-<p style="color:teal;">This text is teal.</p>
-
-<p style="color:pink;">This text is pink.</p>
-
-<p style="color:gray;">This text is gray.</p> -->

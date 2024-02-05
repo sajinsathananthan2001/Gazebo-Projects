@@ -3,7 +3,7 @@
 
 Here are some related projects
 
-- [Drawing Square](https://github.com/sajinsathananthan2001/Gazebo-Projects/blob/master/src/draw_sqr_class.cpp)
+- [Drawing Square](https://github.com/sajinsathananthan2001/Gazebo-Projects/blob/master/src/README.md)
 
 - [SLAM](https://github.com/sajinsathananthan2001/Gazebo-Projects/tree/master/scripts/SLAM)
 
