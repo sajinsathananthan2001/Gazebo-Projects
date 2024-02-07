@@ -6,6 +6,8 @@ find_package(catkin REQUIRED COMPONENTS
   roscpp
   rospy
   std_msgs
+  actionlib
+  actionlib_msgs
 )
 
 
@@ -25,16 +27,21 @@ include_directories(
 
 add_executable(draw_sqr src/draw_sqr.cpp)
 add_executable(draw_sqr_class src/draw_sqr_class.cpp)
+add_executable(point_navigation src/navigation/point_navigation.cpp)
 
 
 add_dependencies(draw_sqr ${draw_sqr_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
 add_dependencies(draw_sqr_class ${draw_sqr_class_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
+add_dependencies(point_navigation ${point_navigation_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
 
 # Specify libraries to link a library or executable target against
 target_link_libraries(draw_sqr
   ${catkin_LIBRARIES}
 )
 target_link_libraries(draw_sqr_class
+  ${catkin_LIBRARIES}
+)
+target_link_libraries(point_navigation      
   ${catkin_LIBRARIES}
 )
 
